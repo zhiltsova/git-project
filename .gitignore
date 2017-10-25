@@ -1,4 +1,5 @@
 # файлы игнорировать
 /exclud
 # txt files
-/docs/*.txt
+
+
