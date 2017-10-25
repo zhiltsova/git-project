@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -75,6 +75,7 @@ ALIGN – горизонтальное выравнивание содержим
 <p><input type="checkbox" name="cat"><label for="cat">кошка кошка</label></p>
 <button type='button'> button</button>
 <button type='button'> button2</button>
+<button type='button'> button3</button>
 </form>
 </body>
 </html>
