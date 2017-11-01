@@ -5,7 +5,7 @@ html{
 }
 @font-face{
     font-family: "OpenSSB";
-    src: './fonts/open-sans-semibold.ttf';
+    src: url('./fonts/open-sans-semibold.ttf');
 }
 
 .contw {
