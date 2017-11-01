@@ -1,0 +1,79 @@
+html{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+@font-face{
+    font-family: "OpenSSB";
+    src: './fonts/open-sans-semibold.ttf';
+}
+
+.contw {
+border-radius: 10px 10px 10px 10px;
+background-color: white;
+box-shadow: 0px 1px 2px 0px rgb( 0, 0, 0 );
+position: relative;
+margin: 220px auto;
+width: 300px;
+height: 232px;
+}
+.contw_bor{
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-width: 1px;
+  border: 1px solid #727272;
+  position: absolute;
+  margin: -71px 80px;
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+}
+.contw_im{
+  width: 142px;
+  height: 142px;
+}
+.contw_fio{
+  margin: 84px 94px;
+
+  font-family: "OpenSSB";
+  color: #727272;
+  position:absolute;
+  z-index: 1;
+  font-size: 21px;
+  color: rgb( 65, 65, 65 );
+  line-height: 1.333;
+  text-align: center;
+  width: 113px;
+  height: 44px;
+}
+.contb {
+  background-color: rgb( 51, 193, 227 );
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  height: 78px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 1px 2px 0px rgb( 0, 0, 0 );
+}
+
+.contb_go {
+  background-color : #33c1e3;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  background-size: 140px 38px;
+  font-size: 14px;
+  font-family: "FiraSB";
+  font-weight: bold;
+  border-width: 2px;
+  border-color: rgb( 255, 255, 255 );
+  border-style: solid;
+  position: absolute;
+  margin: 20px 80px;
+  width: 134px;
+  height: 36px;
+  font-weight: bold;
+  line-height: 2.5;
+  text-align: center;
+  z-index: 1;
+}

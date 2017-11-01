@@ -1,5 +1,8 @@
 # файлы игнорировать
 /exclud
 # txt files
+/port-pro/style.scc
+/port-pro/test.html
+/first
 
 
