@@ -2,16 +2,20 @@ html{
   width: 100%;
   height: 100%;
   position: relative;
+  background-color: rgb(246,246,246);
 }
 @font-face{
-    font-family: "OpenSSB";
-    src: url('./fonts/open-sans-semibold.ttf');
+  font-family: "FiraSB";
+  src: url('../fonts/FiraSans/FiraSans-Bold.ttf');
 }
-
+@font-face{
+    font-family: "OpenSSBold";
+    src: url('../fonts/open-sans-semibold.ttf');
+}
 .contw {
 border-radius: 10px 10px 10px 10px;
 background-color: white;
-box-shadow: 0px 1px 2px 0px rgb( 0, 0, 0 );
+box-shadow: 0px 1px 2px 0px rgb(228,228,228 );
 position: relative;
 margin: 220px auto;
 width: 300px;
@@ -21,7 +25,8 @@ height: 232px;
   box-sizing: border-box;
   border-radius: 50%;
   border-width: 1px;
-  border: 1px solid #727272;
+  border: 1px solid rgb(217,217,217);
+  box-shadow: 0 0 0 1px rgb(193,193,193);
   position: absolute;
   margin: -71px 80px;
   width: 142px;
@@ -33,14 +38,12 @@ height: 232px;
   height: 142px;
 }
 .contw_fio{
-  margin: 84px 94px;
+  margin: 83.33px 94px;
 
-  font-family: "OpenSSB";
+  font-family: "OpenSSBold";
   color: #727272;
   position:absolute;
-  z-index: 1;
   font-size: 21px;
-  color: rgb( 65, 65, 65 );
   line-height: 1.333;
   text-align: center;
   width: 113px;
@@ -53,7 +56,7 @@ height: 232px;
   width: 300px;
   height: 78px;
   border-radius: 0 0 10px 10px;
-  box-shadow: 0px 1px 2px 0px rgb( 0, 0, 0 );
+  box-shadow: 0px 1px 2px 0px rgb( 228, 228, 228 );
 }
 
 .contb_go {
@@ -73,7 +76,11 @@ height: 232px;
   width: 134px;
   height: 36px;
   font-weight: bold;
-  line-height: 2.5;
+  line-height: 2.6;
   text-align: center;
   z-index: 1;
+}
+.contb_go:hover {
+  background-color : white;
+  color: #33c1e3;
 }
