@@ -3,6 +3,11 @@ html{
   height: 100%;
   position: relative;
 }
+body{
+  width: 100%;
+  height: 100%;
+}
+
 @font-face{
     font-family: "FiraSB";
     src: './fonts/FiraSans-Bold.ttf';
@@ -35,7 +40,32 @@ html{
     font-family: "OpenSSB";
     src: './fonts/open-sans-semibold.ttf';
 }
+.wrapper{
+  width: 100%;
+  position: relative;
+  min-height: 570px;
+  overflow: hidden;
+  background-color: rgb(246,246,246);
+}
+header{
+  background-color: rgb( 255, 255, 255 );
+  box-shadow: 0px 1px 3px 0px rgb( 213, 213, 213 );
+  width: 100%;
+  height: 80px;
+}
 
+.container{
+  width: 1000px;
+  margin: 0 auto;
+
+}
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(65,65,65);
+  bottom: 0;
+  z-index: 1;
+}
 .micro{
 
   border-width: 1px;
@@ -64,18 +94,15 @@ html{
   height: 15px;
   z-index: 30;
 }
-.mainmenu {
-  font-size: 18px;
-  line-height: 1.333;
-  text-align: right;
-  position: absolute;
-  left: 224px;
-  top: 206px;
-  width: 97px;
-  height: 18px;
-  z-index: 11;
+nav{
+  width: 250px;
+  height: 100%;
+
 }
 .mainmenu li a{
+  line-height: 1.333;
+  font-size: 18px;
+  text-align: right;
   text-decoration: none;
   color: #727272;
   font-family: "FiraSR";
@@ -164,7 +191,7 @@ html{
   width: 376px;
   height: 278px;
   overflow-y: scroll;
-  
+
 }
 .curric{
   font-size: 14px;
@@ -209,7 +236,7 @@ html{
   line-height: 2.857;
   position: absolute;
   left: 132px;
-  top: 668px;
+
   width: 195px;
   height: 14px;
 }

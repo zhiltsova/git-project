@@ -6,7 +6,7 @@ html{
 }
 @font-face{
   font-family: "FiraSB";
-  src: url('../fonts/FiraSans/FiraSans-Bold.ttf');
+  src: url('../fonts/FiraSans/FiraSansBold.ttf');
 }
 @font-face{
     font-family: "OpenSSBold";
