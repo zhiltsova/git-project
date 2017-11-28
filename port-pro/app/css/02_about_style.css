@@ -1,0 +1,218 @@
+html {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  min-height: 570px;
+  overflow: hidden;
+  background-color: #f6f6f6; }
+
+header {
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px #d5d5d5;
+  width: 100%;
+  height: 80px; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #414141;
+  bottom: 0;
+  z-index: 1; }
+
+.avatar {
+  height: 80px;
+  width: 450px;
+  position: absolute; }
+
+.avatar_bor {
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 0 0 1px #c1c1c1;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+  position: absolute;
+  left: 130px;
+  top: 8px;
+  width: 62px;
+  height: 62px;
+  overflow: hidden; }
+
+.avatar_im {
+  height: 62px;
+  width: 62px; }
+
+.avatar_fio {
+  font-size: 18px;
+  font-family: "FiraSR";
+  color: #414141;
+  position: absolute;
+  left: 200px;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 14px; }
+
+.contacts_header {
+  position: absolute;
+  left: 950px;
+  top: 31px;
+  font-family: "FiraSB";
+  color: #33c1e3;
+  margin: 0;
+  font-size: 18px;
+  border-bottom: 2px dotted #33c1e3; }
+
+nav {
+  width: 270px;
+  height: 100%; }
+
+.mainmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 25px; }
+
+.mainmenu p {
+  padding: 10px;
+  margin: 0px; }
+
+.mainmenu p a {
+  line-height: 1.333;
+  font-size: 18px;
+  text-align: right;
+  text-decoration: none;
+  color: #727272;
+  font-family: "FiraSR";
+  font-weight: normal;
+  padding-right: 20px; }
+
+.mainmenu p a:active {
+  color: #33c1e3;
+  font-weight: bold;
+  border-right: 6px solid #33c1e3; }
+
+#here {
+  color: #33c1e3;
+  font-family: "FiraSB";
+  background: url(../images/spy_blue.png) no-repeat 2px;
+  padding-left: 30px;
+  list-style: none; }
+
+.mainmenu_about_here {
+  border-right: 6px solid #33c1e3; }
+
+.mainmenu_carreer a {
+  background: url(../images/rocket_grey.png) no-repeat 2px;
+  padding-left: 30px; }
+
+.mainmenu_carreer a:hover {
+  background: url(../images/rocket_blue.png) no-repeat 2px;
+  padding-left: 30px; }
+
+.mainmenu_port a {
+  background: url(../images/port_grey.png) no-repeat 2px;
+  padding-left: 30px; }
+
+.mainmenu_port a:hover {
+  background: url(../images/port_blue.png) no-repeat 2px;
+  padding-left: 30px; }
+
+.mainmenu a:hover {
+  color: #33c1e3;
+  font-weight: normal;
+  border: none; }
+
+.aboutim {
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+  position: absolute;
+  left: 403px;
+  top: 102px;
+  width: 224px;
+  height: 224px; }
+
+.descrip_header {
+  font-size: 35px;
+  font-family: "FiraSM";
+  color: #414141;
+  line-height: 1.286;
+  text-align: left;
+  position: absolute;
+  left: 690px;
+  top: 107px;
+  height: 28px;
+  margin: 0px; }
+
+.descrip_text {
+  font-size: 18px;
+  font-family: "FiraSL";
+  color: #646464;
+  line-height: 1.444;
+  text-align: left;
+  position: absolute;
+  left: 690px;
+  top: 164px;
+  width: 376px;
+  height: 278px;
+  overflow-y: scroll;
+  margin: 0; }
+
+.curric {
+  font-size: 14px;
+  font-family: "OpenSB";
+  color: #e85f61;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  background-color: white;
+  border-width: 2px;
+  border-color: #e85f61;
+  border-style: solid;
+  border-radius: 20px;
+  position: absolute;
+  left: 897px;
+  top: 504px;
+  width: 169px;
+  height: 36px; }
+
+.curric:hover {
+  font-size: 14px;
+  font-family: "OpenSB";
+  color: white;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  background-color: #e85f61;
+  border-width: 2px;
+  border-color: #e85f61;
+  border-style: solid;
+  border-radius: 20px;
+  position: absolute;
+  left: 897px;
+  top: 504px;
+  width: 169px;
+  height: 36px; }
+
+.conf {
+  font-size: 14px;
+  font-family: "FiraSL";
+  color: #9c9c9c;
+  line-height: 2.857;
+  position: absolute;
+  left: 132px;
+  width: 195px;
+  height: 14px; }

@@ -1,0 +1,113 @@
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #f6f6f6; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+.about__cont {
+  max-width: 965px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.main {
+  width: 735px;
+  display: flex;
+  flex-flow: row wrap; }
+
+.portrait {
+  width: 222px;
+  height: 222px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+  overflow: hidden;
+  margin-left: 56px;
+  margin-right: 55px; }
+
+.portrait_image {
+  width: 224px;
+  height: 224px; }
+
+.info {
+  width: 392px;
+  display: flex;
+  flex-flow: column; }
+
+.info_header {
+  font-size: 35px;
+  font-family: "FiraSM";
+  font-style: normal;
+  color: #414141;
+  line-height: 1.286;
+  text-align: left;
+  height: 28px;
+  margin-bottom: 30px;
+  margin-top: 0px; }
+
+.info_text {
+  font-size: 18px;
+  font-family: "FiraSL";
+  color: #646464;
+  line-height: 1.49;
+  text-align: left;
+  width: 390px;
+  height: 278px;
+  overflow-y: scroll;
+  margin: 0; }
+
+.info_text::-webkit-scrollbar-track {
+  border-radius: 5px; }
+
+.info_text::-webkit-scrollbar {
+  width: 5px; }
+
+.info_text::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #d8d8d8; }
+
+.main_curric {
+  font-size: 14px;
+  font-family: "OpenSB";
+  color: #e85f61;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  background-color: white;
+  border-width: 2px;
+  border-color: #e85f61;
+  border-style: solid;
+  border-radius: 20px;
+  width: 169px;
+  height: 36px;
+  margin-top: 30px;
+  margin-left: 50px;
+  align-self: flex-end; }
+
+.main_curric:hover {
+  font-size: 14px;
+  font-family: "OpenSB";
+  color: white;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  background-color: #e85f61;
+  border-width: 2px;
+  border-color: #e85f61;
+  border-style: solid;
+  border-radius: 20px;
+  width: 169px;
+  height: 36px; }

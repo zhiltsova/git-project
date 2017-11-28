@@ -1,0 +1,26 @@
+{
+  "name": "port-pro",
+  "version": "1.0.0",
+  "description": "first project",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "gulp-jade": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {},
+  "author": "zhiltsova",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "/d/_Стася/Frontend/git-project"
+  },
+  "keywords": [
+    "ocean"
+  ]
+}

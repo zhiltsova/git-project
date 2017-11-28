@@ -1,0 +1,17 @@
+@import "./common/normalize.scss";
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+@import "./common/fonts.scss";
+@import './common/header.scss';
+@import './common/footer.scss';
+@import './common/nav.scss';
+//@import "./hello/hello.scss";
+@import './about/about.scss';
+@import './carreer/carreer.scss';
+@import './portfolio/portfolio.scss';

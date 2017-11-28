@@ -1,0 +1,17 @@
+
+extends ./layout.jade
+block variables
+  - var bodyclass = 'about';
+  - var containerclass = 'about__cont'
+block title
+  title страница обо мне
+
+        block main
+          section.main
+            .portrait
+              img(src="../images/about.jpg" alt="моя фотография").portrait_image
+            article.info
+              h1.info_header Обо мне
+              p.info_text Меня зовут Анастасия.   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptate facilis, fugit vel modi molestias consectetur autem cum aperiam est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam vel aspernatur obcaecati unde nam expedita?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate qui blanditiis ducimus tenetur, laborum repellat similique earum iusto iure eum ab sint minima eius harum impedit explicabo delectus! Voluptatibus minima eligendi dignissimos nam ut dolores, doloribus totam impedit corrupti nihil magnam excepturi, repellendus omnis amet officia recusandae eveniet nesciunt architecto?
+              button(type="button").main_curric Скачать резюме
+              

@@ -1,0 +1,124 @@
+.rocket_blue, .rocket_grey, .port_blue, .port_grey, .fblue, .fgrey, .vblue, .vgrey, .tblue, .tgrey, .envel, .phone, .skype, .comp, .markhere, .marknot, .curric_red, .curric_white, .spy_grey, .spy_blue{
+	background: url(sprites.png) no-repeat;
+}
+
+.rocket_blue{
+	background-position: -15px -65px ;
+	width: 17px;
+	height: 18px;
+}
+
+.rocket_grey{
+	background-position: -64px -65px ;
+	width: 17px;
+	height: 18px;
+}
+
+.port_blue{
+	background-position: -16px -115px ;
+	width: 18px;
+	height: 15px;
+}
+
+.port_grey{
+	background-position: -65px -115px ;
+	width: 18px;
+	height: 15px;
+}
+
+.fblue{
+	background-position: -159px -10px ;
+	width: 30px;
+	height: 30px;
+}
+
+.fgrey{
+	background-position: -209px -11px ;
+	width: 30px;
+	height: 30px;
+}
+
+.vblue{
+	background-position: -161px -59px ;
+	width: 30px;
+	height: 30px;
+}
+
+.vgrey{
+	background-position: -209px -60px ;
+	width: 31px;
+	height: 30px;
+}
+
+.tblue{
+	background-position: -159px -109px ;
+	width: 31px;
+	height: 30px;
+}
+
+.tgrey{
+	background-position: -208px -110px ;
+	width: 31px;
+	height: 30px;
+}
+
+.envel{
+	background-position: -17px -167px ;
+	width: 19px;
+	height: 15px;
+}
+
+.phone{
+	background-position: -66px -168px ;
+	width: 15px;
+	height: 15px;
+}
+
+.skype{
+	background-position: -118px -168px ;
+	width: 16px;
+	height: 17px;
+}
+
+.comp{
+	background-position: -115px -117px ;
+	width: 20px;
+	height: 18px;
+}
+
+.markhere{
+	background-position: -165px -164px ;
+	width: 20px;
+	height: 20px;
+}
+
+.marknot{
+	background-position: -216px -165px ;
+	width: 20px;
+	height: 20px;
+}
+
+.curric_red{
+	background-position: -116px -20px ;
+	width: 16px;
+	height: 14px;
+}
+
+.curric_white{
+	background-position: -118px -71px ;
+	width: 14px;
+	height: 14px;
+}
+
+.spy_grey{
+	background-position: -65px -18px ;
+	width: 16px;
+	height: 18px;
+}
+
+.spy_blue{
+	background-position: -16px -17px ;
+	width: 16px;
+	height: 18px;
+}
+
