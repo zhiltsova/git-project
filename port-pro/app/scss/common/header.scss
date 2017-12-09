@@ -1,17 +1,32 @@
+@import  "../common/variables.scss";
+@import "../common/mixins.scss";
 header{
   height: 80px;
+  min-height: 80px;
   width: 100%;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 2px 0 #d5d5d5;
   margin-bottom: 21px;
+  display: flex;
+  justify-content: center;
 }
 .header_cont{
   max-width: 940px;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
 }
-.avatar_box{
+@include tablet {
+  .header_cont{
+    max-width: 728px;}
+  }
+.avatar-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+.avatar-box{
   box-sizing: border-box;
   border: 1px solid rgb(217,217,217);
   box-shadow: 0 0 0 1px rgb(193,193,193);
@@ -20,26 +35,143 @@ header{
   width: 62px;
   height: 62px;
   overflow: hidden;
-  margin-top: 9px;
 }
-.avatar_im{
+.avatar-im{
   height: 62px;
   width: 62px;
 }
-.avatar_fio {
+.avatar-fio {
   font-size: 18px;
   font-family: "FiraSR";
   color: rgb( 65, 65, 65 );
-  flex-grow: 1;
   margin-left: 18px;
-  margin-top: 31px;
-  margin-right: 18px;
-
 }
-.contacts_header{
+.contacts{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contacts__header{
   font-family: "FiraSB";
   color: #33c1e3;
-  margin-top: 31px;
   font-size: 18px;
   border-bottom: 2px dotted #33c1e3;
+  text-decoration: none;
+}
+.contacts__header:hover{
+  color: $red;
+  border-bottom: 2px dotted $red;
+}
+.contacts-list-wrap:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -15%;
+  width: 100%;
+  height: 13%;
+}
+.contacts__triangle{
+  content: "";
+  display: block;
+  border: 7px solid transparent;
+  border-bottom: 11px solid rgb(222,222,222)  ;
+  position: absolute;
+  top: 53px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  z-index: 100;
+  opacity: 0;
+
+}
+.contacts__triangle:before{
+  content: "";
+  display: block;
+  border: 7px solid transparent;
+  border-bottom: 11px solid white;
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  opacity: 0;
+
+}
+.contacts-list-wrap{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 0px;
+  padding: 0;
+  position: absolute;
+  top: 70px;
+  left: -41%;
+  border: rgb(222,222,222) solid 1px;
+  border-radius: 10px;
+  background-color: white;
+  font-family: "FiraSL";
+  opacity: 0;
+}
+.contacts:hover .contacts-list-wrap{
+  opacity: 1;
+}
+.contacts:hover .contacts__triangle{
+  opacity: 1;
+}
+.contacts:hover .contacts__triangle::before{
+  opacity: 1;
+}
+.contacts-list-wrap ul:last-child{
+  border: none;
+}
+.contacts-list-wrap li{
+  list-style: none;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 46px;
+  padding-right: 13px;
+  border-bottom: rgb(238,238,238) solid 1px;
+
+}
+.contacts-list-wrap li a{
+  color: $dagrey;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contacts-list_email::before{
+  content: " ";
+  display: block;
+  background: url(../images/sprites.png) no-repeat;
+  background-position: -17px -167px ;
+  width: 16px;
+  height: 18px;
+  margin-right: 5px;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 2px;
+}
+.contacts-list_phone::before{
+  content: " ";
+  display: block;
+  background: url(../images/sprites.png) no-repeat;
+  background-position: -66px -168px ;
+	width: 15px;
+	height: 15px;
+  margin-right: 5px;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 2px;
+}
+.contacts-list_skype::before{
+  content: " ";
+  display: block;
+  background: url(../images/sprites.png) no-repeat;
+  background-position: -118px -168px ;
+	width: 16px;
+	height: 17px;
+  margin-right: 5px;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 2px;
 }

@@ -12,19 +12,39 @@
   height: 100%;
   width: 100%; }
 
-.about__cont {
+.about-cont {
   max-width: 965px;
   width: 100%;
   margin: 0 auto;
-  flex: 1 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
 
+@media screen and (max-width: 768px) {
+  .about-cont {
+    max-width: 690px; } }
+
+.about-main {
+  width: 100%;
+  flex: 1 0 auto; }
+
 .main {
-  width: 735px;
+  width: 76%;
   display: flex;
-  flex-flow: row wrap; }
+  flex-flow: row nowrap; }
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 95.65%; } }
+
+.wrap-portrait {
+  display: flex;
+  width: 47%;
+  justify-content: flex-start; }
+
+@media screen and (max-width: 768px) {
+  .wrap-portrait {
+    width: 33.33%; } }
 
 .portrait {
   width: 222px;
@@ -34,18 +54,30 @@
   border-color: white;
   border-radius: 50%;
   background-color: #f6f6f6;
-  overflow: hidden;
-  margin-left: 56px;
-  margin-right: 55px; }
+  overflow: hidden; }
+
+@media screen and (max-width: 768px) {
+  .portrait {
+    width: 176px;
+    height: 176px; } }
 
 .portrait_image {
   width: 224px;
   height: 224px; }
 
+@media screen and (max-width: 768px) {
+  .portrait_image {
+    width: 176px;
+    height: 176px; } }
+
 .info {
-  width: 392px;
+  width: 53%;
   display: flex;
   flex-flow: column; }
+
+@media screen and (max-width: 768px) {
+  .info {
+    width: 66.66%; } }
 
 .info_header {
   font-size: 35px;
@@ -64,10 +96,11 @@
   color: #646464;
   line-height: 1.49;
   text-align: left;
-  width: 390px;
+  width: 100%;
   height: 278px;
   overflow-y: scroll;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 68px; }
 
 .info_text::-webkit-scrollbar-track {
   border-radius: 5px; }
@@ -79,6 +112,11 @@
   border-radius: 5px;
   background-color: #d8d8d8; }
 
+.main-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; }
+
 .main_curric {
   font-size: 14px;
   font-family: "OpenSB";
@@ -86,28 +124,39 @@
   font-weight: bold;
   line-height: 2;
   text-align: center;
-  background-color: white;
+  background-color: #f6f6f6;
   border-width: 2px;
   border-color: #e85f61;
   border-style: solid;
   border-radius: 20px;
-  width: 169px;
-  height: 36px;
-  margin-top: 30px;
-  margin-left: 50px;
-  align-self: flex-end; }
+  padding: 4px;
+  padding-right: 10px;
+  padding-left: 35px;
+  margin-right: 13px; }
 
 .main_curric:hover {
-  font-size: 14px;
-  font-family: "OpenSB";
   color: white;
-  font-weight: bold;
-  line-height: 2;
-  text-align: center;
   background-color: #e85f61;
-  border-width: 2px;
-  border-color: #e85f61;
-  border-style: solid;
-  border-radius: 20px;
-  width: 169px;
-  height: 36px; }
+  cursor: pointer; }
+
+.main_curric::before {
+  background: url(../images/sprites.png) no-repeat;
+  content: " ";
+  display: block;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 6px;
+  background-position: -116px -20px;
+  width: 16px;
+  height: 14px; }
+
+.main_curric:hover::before {
+  background: url(../images/sprites.png) no-repeat;
+  content: " ";
+  display: block;
+  position: absolute;
+  margin-left: -21px;
+  margin-top: 6px;
+  background-position: -118px -71px;
+  width: 14px;
+  height: 14px; }
